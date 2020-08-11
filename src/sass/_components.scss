@@ -1,0 +1,16 @@
+////// YouTubePlayer ///////
+.custom-youtube-player {
+  height: 25rem;
+  width: 41rem;
+  box-shadow: var(--shadow-dark);
+
+  &__iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: $mb-max) { 
+    height: 10rem;
+    width: 18rem;
+  }
+}

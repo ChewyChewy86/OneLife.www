@@ -1,0 +1,38 @@
+:root {
+  ////// COLORS //////
+  //primary
+  --color-primary: #f9b501;
+
+  //secondary
+  --color-grey: #667B7D;
+
+
+  ////// FONT //////
+  --primary-font: "ISOCTEUR";
+
+  ////// SHADOWS //////
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+
+////// BREAK-POINTS //////
+// Responsive Grid Media Queries - 1280, 1024, 768, 480
+// 1280-1024   - desktop (default grid)
+// 1024-768    - tablet landscape
+// 768-480     - tablet 
+// 480-less    - phone landscape & smaller
+
+// phone
+$mb-max: 30rem;
+
+// tablet
+$tab-max: 48rem;
+$tab-min: 30rem;
+
+// tablet-landscape
+$tab-land-max: 64rem;
+$tab-land-min: 48rem;
+
+// desktop
+$desk-max: 80rem;
+$desk-min: 64rem;
